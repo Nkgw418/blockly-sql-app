@@ -448,7 +448,7 @@ function loadDatabaseStructure(select) {
 
 function getDBStructure() {
     var xhr = new XMLHttpRequest();
-    xhr.open("GET", "databases/" + SQLBlockly.DSN + ".json", true);
+    xhr.open("GET", "databases/" + BeerCompany + ".json", true);//SQLBlockly.DSN + ".json", true);
     xhr.responseType = "json";
     xhr.onload = function() {
         var status = xhr.status;
